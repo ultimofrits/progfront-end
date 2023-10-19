@@ -1,0 +1,19 @@
+@use 'colors';
+@use 'mixins';
+
+
+
+
+body{
+    background: colors.$gradient;
+    @include mixins.flexcenter;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4rem;
+    font-family: 'Noto Sans';
+
+
+
+
+}
